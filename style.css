@@ -9,7 +9,7 @@ img {
     object-fit: cover;
   }
 html {
-    font-family: fantasy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: 12px;
   }
   
@@ -62,7 +62,7 @@ input {
 .item {
     width: 100%;
     border-radius: 8px;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(203, 195, 227);
     padding: 15px;
     overflow: hidden;
   }
@@ -77,9 +77,9 @@ input {
     justify-content: space-between;
   }
 .search-result .title {
-    color: whitesmoke;
+    color: rgb(159, 43, 104);
     margin: 20px 10px 0 0;
-    font-size: 1.8rem;
+    font-size: 25px;
     font-weight: 400;
 }
 
@@ -97,12 +97,11 @@ input {
     align-self: flex-start;
     }
 .item-data {
-    color: whitesmoke;
+    color: darkslategrey;
     display: block;
     margin-top: 10px;
-    font-size: 1rem;
+    font-size: 16px;
     letter-spacing: 0.05rem;
     line-height: 2rem;
     }
-
     
