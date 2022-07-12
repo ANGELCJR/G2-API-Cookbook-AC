@@ -3,11 +3,13 @@
     margin: 0;
     box-sizing: border-box;
   }
+
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
+
 html {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: 12px;
@@ -22,6 +24,7 @@ section {
     padding: 100px 0;
     background-color: rgb(46, 46, 76);
   }
+
 .container {
     width: 100%;
     height: 90%;
@@ -29,17 +32,21 @@ section {
     margin: 0 auto;
     padding: 20px;
   }
+
 .brand {
     text-align: center;
     font-size: 4rem;
     color: whitesmoke;
     margin-bottom: 30px;
   }
+
 form {
     width: 90%;
     max-width: 400px;
     margin: 20px auto;
   }
+
+/* text box to search for a recipe*/
 .searchBox {
     line-height: 25px;
     width: 78%;
@@ -59,6 +66,7 @@ form {
     grid-gap: 25px;
     grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
   }
+
 .item {
     width: 100%;
     border-radius: 8px;
@@ -66,16 +74,21 @@ form {
     padding: 15px;
     overflow: hidden;
   }
+
 .item img {
     width: 100%;
     height: 300px;
     border-radius: 4px;
   }
+
+/* allows the recipe boxes to move*/
 .flex-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
+/* title of the recipe search results*/
 .search-result .title {
     color: rgb(159, 43, 104);
     margin: 20px 10px 0 0;
@@ -83,11 +96,12 @@ form {
     font-weight: 400;
 }
 
+/*search button next to the text box*/
 .searchBtn {
   display: inline-block;
   width: 12%;
   height: 46px;
-  padding-top: 17px;
+  padding-top: 20px;
 }
 
 .item-data {
