@@ -50,7 +50,7 @@ form {
 .searchBox {
     line-height: 25px;
     width: 78%;
-    padding: 10px;
+    padding: 9px;
     border-radius: 4px;
     border: none;
     outline: none;
@@ -100,8 +100,19 @@ form {
 .searchBtn {
   display: inline-block;
   width: 12%;
-  height: 46px;
-  padding-top: 20px;
+  height: 45px;
+  padding-top: 0px;
+  color: rgb(161, 104, 218);
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+.searchBtn:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+  background-color:rgb(93, 63, 211) ;
+  color: aliceblue;
 }
 
 .item-data {
