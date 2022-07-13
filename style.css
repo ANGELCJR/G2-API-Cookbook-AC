@@ -60,7 +60,7 @@ form {
     display: inline-block;
   }
 
-.search-result {
+#search-result {
     margin-top: 50px;
     width: 100%;
     display: grid;
@@ -90,7 +90,7 @@ form {
   }
 
 /* title of the recipe search results*/
-.search-result .title {
+#search-result .title {
     color: rgb(159, 43, 104);
     margin: 20px 10px 0 0;
     font-size: 25px;
@@ -98,7 +98,7 @@ form {
 }
 
 /*search button next to the text box*/
-.searchBtn {
+#searchBtn {
   display: inline-block;
   width: 12%;
   height: 45px;
@@ -110,7 +110,7 @@ form {
 }
  
 /* Button will change when the mouse hovers over */
-.searchBtn:hover {
+#searchBtn:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
   background-color:rgb(93, 63, 211) ;
