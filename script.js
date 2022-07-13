@@ -7,8 +7,18 @@ function recipe(ingredients) {
         }
     };
     
-    fetch('https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch?query=' + ingredients, options)
+let recipeURL = 'https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch?query=';
+
+    fetch(recipeURL + ingredients, options)
         .then(response => response.json())
-        .then(response => console.log(response))
-        .catch(err => console.error(err));
+        .then(data => console.log(data))
+        return response;
 }
+    recipe();
+
+function searchBarFunction() {
+    const searchBar = document.getElementById('searchBox');
+}
+
+// adds event listener to the button for a response
+searchBar.addEventListener('click', searchBarFunction);
