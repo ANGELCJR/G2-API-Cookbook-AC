@@ -13,3 +13,6 @@ Spoonacular was the API used in this project, due to time restraints and challen
 
 The idea was that when searching a recipe you would get related search items and click the "view recipe" link to expand the recipe card that woudl appear
 to be able to see and read the recipe.
+
+https://hieule411.github.io/G2-API-Cookbook/
+![Screenshot 2022-07-11 180818](https://user-images.githubusercontent.com/102444946/178856021-7b0407b5-721e-4f12-8aec-326f5398c7e4.png)
