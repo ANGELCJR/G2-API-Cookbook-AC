@@ -13,3 +13,6 @@ Spoonacular was the API used in this project, due to time restraints and challen
 
 The idea was that when searching a recipe you would get related search items and click the "view recipe" link to expand the recipe card that woudl appear
 to be able to see and read the recipe.
+
+
+![Screenshot 2022-07-11 180818](https://user-images.githubusercontent.com/102444946/178855170-aa4311f7-f39b-4fc3-8c9a-8d7cdf6a0043.png)
