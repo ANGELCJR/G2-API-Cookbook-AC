@@ -15,4 +15,5 @@ The idea was that when searching a recipe you would get related search items and
 to be able to see and read the recipe.
 
 https://hieule411.github.io/G2-API-Cookbook/
-![Screenshot 2022-07-11 180818](https://user-images.githubusercontent.com/102444946/178856021-7b0407b5-721e-4f12-8aec-326f5398c7e4.png)
+![Screenshot 2022-07-13 185758](https://user-images.githubusercontent.com/102444946/178856739-8f21f2f7-4248-40c9-b3c8-17d183df4e14.png)
+
