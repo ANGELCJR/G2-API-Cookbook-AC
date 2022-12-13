@@ -1,0 +1,19 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "the title of the webpage is: Recipe's-R-Us",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANGELCJR/G2-API-Cookbook-AC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ANGELCJR/G2-API-Cookbook-AC/issues"
+  },
+  "homepage": "https://github.com/ANGELCJR/G2-API-Cookbook-AC#readme"
+}
