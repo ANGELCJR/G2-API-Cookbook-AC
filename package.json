@@ -1,53 +1,31 @@
 {
-  "name": "static-json",
-  "description": "static json",
-  "homepage": "https://github.com/dylan-7/static-json",
-  "version": "0.0.13",
-  "author": "dylan",
+  "name": "node-js-sample",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.13.3",
+    "node-fetch": "^3.3.0"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dylan-7/static-json.git"
+    "url": "https://github.com/heroku/node-js-sample"
   },
-  "main": "dist/index.js",
-  "contributors": [],
   "keywords": [
-    "static-json"
+    "node",
+    "heroku",
+    "express"
   ],
-  "engines": {
-    "node": "12.11.1"
-  },
-  "files": [
-    "dist",
-    "lib",
-    "types"
+  "author": "Mark Pundsack",
+  "contributors": [
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
   ],
-  "types": "./types/index.d.ts",
-  "devDependencies": {
-    "@types/lodash": "^4.14.120",
-    "lodash": "^4.17.11",
-    "parcel": "^1.11.0",
-    "rimraf": "^2.6.3",
-    "typescript": "^3.2.4"
-  },
-  "scripts": {
-    "start": "npm start",
-    "prepublish": "yarn run build",
-    "pretest": "yarn run --silent readme && yarn run --silent lint",
-    "test": "yarn run --silent",
-    "tests-only": "node test",
-    "postlint": "",
-    "clean": "rimraf dist types",
-    "build": "webpack"
-  },
-  "bugs": {
-    "url": "https://github.com/dylan-7/static-json/issues"
-  },
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "license": "ISC",
-  "dependencies": {
-    "static-json": "^0.0.13"
-  }
+  "license": "MIT"
 }
