@@ -9,13 +9,14 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "express": "^4.13.3",
+    "node": "^19.3.0",
     "node-fetch": "^3.3.0"
   },
   "engines": {
     "node": "4.0.0"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "https://github.com/heroku/node-js-sample"
   },
   "keywords": [
